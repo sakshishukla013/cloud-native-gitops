@@ -1,0 +1,8 @@
+apiVersion: v2
+name: gitops-app
+description: Cloud-native GitOps application
+
+type: application
+
+version: 0.1.0
+appVersion: "1.1.0"
