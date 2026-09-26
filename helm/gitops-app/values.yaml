@@ -2,7 +2,7 @@ replicaCount: 3
 
 image:
   repository: ghcr.io/sakshishukla013/gitops-app
-  tag: "e4a92b2b26cc5f2a0305c31a5ccaa94fb3ebcc39"
+  tag: "97e963572e39dd8cebb4180e505a16cd7fafd705"
   pullPolicy: IfNotPresent
 
 service:
