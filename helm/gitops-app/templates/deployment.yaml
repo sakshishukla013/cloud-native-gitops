@@ -23,6 +23,9 @@ spec:
 
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          envFrom:
+            - configMapRef:
+                name: {{ .Release.Name }}-config
 
           ports:
             - containerPort: {{ .Values.service.targetPort }}
