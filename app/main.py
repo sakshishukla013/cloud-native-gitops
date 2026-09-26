@@ -3,7 +3,7 @@ from prometheus_fastapi_instrumentator import Instrumentator
 
 app = FastAPI(
     title="Cloud Native GitOps App",
-    version="1.0.0"
+    version="1.1.0"
 )
 
 Instrumentator().instrument(app).expose(app)
